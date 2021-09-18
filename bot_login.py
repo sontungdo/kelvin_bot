@@ -1,14 +1,17 @@
 import praw
 import os
+import config
+
+
 
 def bot_login():
     print ("Logging in..")
     try:
-        r = praw.Reddit(username = os.environ["reddit_username"],
-                password = os.environ["reddit_password"],
-                client_id = os.environ["client_id"],
-                client_secret = os.environ["client_secret"],
-                user_agent = "kyle")
+        r = praw.Reddit(user_agent=config.userAgent, 
+                        client_id=config.cID, 
+                        client_secret=config.cSC, 
+                        username=config.userN, 
+                        password=config.userP)
         print ("Logged in!")
     except:
         print ("Failed to log in!")

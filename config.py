@@ -1,0 +1,5 @@
+userAgent = 'kelvin_bot'
+cID = '02pCvT8Biad-cFVL0ZENXg'
+cSC= 'nF2phCM98blw7sQfkqkxrQCo3i7XLA'
+userN = 'kelvin_bot'
+userP ='botganktem20gg'
