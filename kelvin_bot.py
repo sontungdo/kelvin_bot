@@ -122,7 +122,7 @@ if __name__ == "__main__":
     keywords = {' c ', ' f '} #makes a set of keywords to find in subreddits
 
     # strict pattern search that only finds properly formatted temperature
-    pattern = r'\s+([+-]?\d+(\.\d+)?)\s?°([CF])\s+' # can add ? after ° to broaden up the search
+    pattern = r'\s+([+-]?\d+(\.\d+)?)\s?°?([CF])\s+' # can add ? after ° to broaden up the search
     
     kelvin_pros = "Kelvin is the best measurement for temperature. As it is an absolute temperature scale,"\
         " measurements in Kelvin can not only be compared to each other but can also be weighted"\
