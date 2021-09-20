@@ -1,1 +1,1 @@
-web: python3 kelvin_bot.py
+worker: python3 kelvin_bot.py
