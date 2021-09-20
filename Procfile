@@ -1,1 +1,1 @@
-web:gunicorn app:app
+worker: python kelvin_bot.py
